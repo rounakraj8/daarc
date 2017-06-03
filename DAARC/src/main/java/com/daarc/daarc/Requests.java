@@ -75,7 +75,7 @@ public class Requests {
 		}
 
 		ec2 = new AmazonEC2Client(credentials);
-		Region usWest2 = Region.getRegion(Regions.AP_SOUTH_1);
+		Region usWest2 = Region.getRegion(Regions.AP_SOUTHEAST_1);
 		ec2.setRegion(usWest2);
 	}
 
